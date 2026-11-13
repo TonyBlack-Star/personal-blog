@@ -206,7 +206,7 @@ name = "DTC"
 
 url = "/categories/dtc/"
 
-weight = 10
+weight = 20
 
 
 
@@ -218,7 +218,7 @@ name = "关于我"
 
 url = "/about/"
 
-weight = 20
+weight = 10
 
 
 
