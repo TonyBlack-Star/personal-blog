@@ -224,18 +224,6 @@ weight = 10
 
 [[menu.main]]
 
-identifier = "global-buy"
-
-name = "环球代购"
-
-url = "/global-buy/"
-
-weight = 30
-
-
-
-[[menu.main]]
-
 identifier = "tags"
 
 name = "标签"
