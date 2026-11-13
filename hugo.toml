@@ -214,7 +214,7 @@ weight = 20
 
 identifier = "about"
 
-name = "关于我"
+name = "履历"
 
 url = "/about/"
 
