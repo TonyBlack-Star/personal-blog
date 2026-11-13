@@ -1,0 +1,20 @@
+<!-- Luxseen 自定义背景：极淡渐变，仅亮色主题生效；暗色保持 PaperMod 默认 -->
+<style>
+  :root {
+    --luxseen-light-bg:
+      radial-gradient(1100px 520px at 12% -8%, rgba(210, 195, 170, .16), transparent 72%),
+      linear-gradient(180deg, #fdfcfa 0%, #f7f6f3 52%, #f1f3f5 100%);
+  }
+
+  :root[data-theme="light"] body {
+    background-image: var(--luxseen-light-bg);
+    background-attachment: fixed;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root[data-theme="auto"] body {
+      background-image: var(--luxseen-light-bg);
+      background-attachment: fixed;
+    }
+  }
+</style>
