@@ -1,6 +1,6 @@
 ---
 title: "履历"
-description: "刘兵兵（Tony）｜独立站负责人。自 2018 年起专注 DTC 品牌独立站，从 0-1 建站到统筹经营，覆盖 Shopify、SEO/SEM、红人营销与团队管理。"
+description: "独立站负责人（全球站点）。自 2018 年起专注 DTC 品牌独立站，从 0-1 建站到统筹经营，覆盖 Shopify、SEO/SEM、红人营销与团队管理。"
 draft: false
 ---
 
