@@ -1,0 +1,74 @@
+/* Luxseen 首页增强 —— 只用 PaperMod 现有变量，自动适配亮/暗主题 */
+
+.home-info .entry-header h1 {
+  letter-spacing: .01em;
+}
+
+.home-info .md-content > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+  gap: .5rem .6rem;
+  margin: 1.1rem 0 1.4rem;
+  padding: 0;
+  list-style: none;
+}
+
+.home-info .md-content > ul > li {
+  margin: 0;
+  padding: .45rem .75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--entry);
+  font-size: .92rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.home-info .md-content > ul > li::before {
+  content: none;
+}
+
+.lux-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+  margin: 1.5rem 0 .4rem;
+}
+
+.home-info .md-content a.lux-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .55rem 1.15rem;
+  border: 1px solid var(--tertiary);
+  border-radius: var(--radius);
+  background: var(--primary);
+  color: var(--theme);
+  font-size: .95rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: opacity .18s ease, transform .18s ease;
+}
+
+.home-info .md-content a.lux-cta:hover {
+  opacity: .85;
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.home-info .md-content a.lux-cta--ghost {
+  background: transparent;
+  color: var(--primary);
+}
+
+.home-info .md-content a.lux-cta--ghost:hover {
+  background: var(--entry);
+  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .home-info .md-content > ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

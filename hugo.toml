@@ -1,6 +1,8 @@
 baseURL = "https://luxseen.com/"
 
-languageCode = "zh-cn"
+locale = "zh-CN"
+
+defaultContentLanguage = "zh-cn"
 
 title = "Luxseen | 碎碎念"
 
@@ -85,8 +87,34 @@ ShowToc = true
 # 首页文章数量
 
 mainSections = [
-    "posts"
+    "posts",
+    "dtc"
 ]
+
+
+
+# =====================================
+# 全站默认分享图（PaperMod 据此生成 og:image / twitter:image）
+# =====================================
+
+images = [
+    "/images/og-default.png"
+]
+
+
+# 中文日期格式
+
+DateFormat = "2006年1月2日"
+
+
+
+# =====================================
+# 结构化数据：个人博客用 Person，不用 Organization
+# =====================================
+
+[params.schema]
+
+publisherType = "Person"
 
 
 
@@ -98,7 +126,7 @@ mainSections = [
 
 text = "Luxseen"
 
-icon = "/images/luxseen-logo.png"
+icon = "/images/luxseen-logo-70.png"
 
 iconHeight = 35
 
@@ -112,13 +140,15 @@ iconWidth = 35
 
 [params.assets]
 
-favicon = "/images/luxseen-logo.png"
+favicon = "/images/favicon.ico"
 
-favicon16x16 = "/images/luxseen-logo.png"
+favicon16x16 = "/images/favicon-16.png"
 
-favicon32x32 = "/images/luxseen-logo.png"
+favicon32x32 = "/images/favicon-32.png"
 
-apple_touch_icon = "/images/luxseen-logo.png"
+apple_touch_icon = "/images/apple-touch-icon.png"
+
+safari_pinned_tab = "/images/favicon-32.png"
 
 
 
@@ -149,6 +179,11 @@ Content = """
 
 把经历变成经验，
 把经验沉淀成方法。
+
+<div class="lux-cta-row">
+<a class="lux-cta" href="/dtc/">读文章 →</a>
+<a class="lux-cta lux-cta--ghost" href="/about/">看履历</a>
+</div>
 
 """
 
@@ -204,7 +239,7 @@ identifier = "dtc"
 
 name = "DTC"
 
-url = "/categories/dtc/"
+url = "/dtc/"
 
 weight = 20
 

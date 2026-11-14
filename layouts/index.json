@@ -1,0 +1,15 @@
+{{- /* Luxseen: 搜索索引只收录文章，排除履历页、分类页与自定义 terms 页 */ -}}
+{{- $sections := slice "posts" "dtc" -}}
+{{- $index := slice -}}
+{{- range site.RegularPages -}}
+  {{- if and (in $sections .Section) (not .Params.searchHidden) -}}
+    {{- $index = $index | append (dict
+        "title" .Title
+        "content" .Plain
+        "permalink" .Permalink
+        "summary" .Summary
+        "section" .Section
+        "date" (.Date.Format "2006-01-02")) -}}
+  {{- end -}}
+{{- end -}}
+{{- $index | jsonify -}}
