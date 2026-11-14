@@ -127,15 +127,23 @@
   background: #c1464b;
 }
 
-.post-single .post-content .lux-job { margin: 0 0 2.1rem; }
+.post-single .post-content .lux-job { margin: 0 0 1rem; }
 .post-single .post-content .lux-job:last-of-type { margin-bottom: 1.2rem; }
 
-.lux-job-head {
+/* 折叠头：公司名 + 职位在同一行，日期右对齐 */
+.post-single .post-content details.lux-job > summary.lux-job-head {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  justify-content: space-between;
-  gap: .2rem 1rem;
+  justify-content: flex-start;
+  gap: .2rem .7rem;
+  padding: .9rem 0;
+  font-size: 1rem;
+}
+
+.lux-job-label {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .lux-job-company {
@@ -144,21 +152,29 @@
   color: var(--primary);
 }
 
+.lux-job-role {
+  font-size: .98rem;
+  font-weight: 700;
+  color: var(--primary);
+  white-space: nowrap;
+}
+
+.lux-job-sep {
+  margin: 0 .5rem;
+  color: var(--secondary);
+  font-weight: 400;
+}
+
 .lux-job-meta {
   flex: 0 0 auto;
+  margin-left: auto;
   font-size: .9rem;
   line-height: 1.6;
   color: var(--secondary);
   white-space: nowrap;
 }
 
-.lux-job-role {
-  margin: .95rem 0 .9rem;
-  font-size: 1.06rem;
-  font-weight: 700;
-  color: var(--primary);
-}
-
+.lux-job-body { padding: .1rem 0 .75rem; }
 .lux-job p { margin: .55rem 0; }
 .lux-job ul { margin: .6rem 0 .2rem; }
 .lux-job li { line-height: 1.75; }
@@ -191,10 +207,8 @@
     font-size: 4rem;
   }
 
-  .lux-job-head {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: .1rem;
+  .post-single .post-content details.lux-job > summary.lux-job-head {
+    gap: .25rem .5rem;
   }
 
   .lux-job-meta { white-space: normal; }
