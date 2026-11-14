@@ -2,7 +2,7 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-{{- $excluded := slice "/subcategories/" "/categories/" "/search/" -}}
+{{- $excluded := slice "/categories/" "/search/" -}}
 {{- range .Data.Pages -}}
   {{- if and (ne .Kind "term") (ne .Params.layout "terms") (not (in $excluded .RelPermalink)) }}
   <url>

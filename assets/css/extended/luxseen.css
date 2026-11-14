@@ -67,8 +67,135 @@
   opacity: 1;
 }
 
+/* 404：覆盖 PaperMod 的纯数字大字号占位 */
+.not-found.lux-not-found {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .55rem;
+  min-height: 52vh;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.lux-404-code {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--primary);
+}
+
+.lux-404-text {
+  margin: .2rem 0 0;
+  color: var(--secondary);
+}
+
+.lux-404-links {
+  margin: .5rem 0 0;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  color: var(--secondary);
+}
+
+/* ===== 履历页「工作经历」：按简历排版平铺展示 ===== */
+/* 只作用于 /about/ 里带指定 class 的板块，不影响其他页面与板块 */
+
+.post-single .post-content > h2.lux-section-title {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  margin: 2.2rem 0 1.35rem;
+  padding: .55rem .9rem;
+  border-bottom: 0;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgba(193, 70, 75, .11), rgba(193, 70, 75, .025) 68%, transparent 100%);
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: #c1464b;
+}
+
+.post-single .post-content > h2.lux-section-title::before {
+  content: "";
+  flex: 0 0 auto;
+  width: .3rem;
+  height: 1.1rem;
+  border-radius: 2px;
+  background: #c1464b;
+}
+
+.post-single .post-content .lux-job { margin: 0 0 2.1rem; }
+.post-single .post-content .lux-job:last-of-type { margin-bottom: 1.2rem; }
+
+.lux-job-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .2rem 1rem;
+}
+
+.lux-job-company {
+  font-size: 1.06rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.lux-job-meta {
+  flex: 0 0 auto;
+  font-size: .9rem;
+  line-height: 1.6;
+  color: var(--secondary);
+  white-space: nowrap;
+}
+
+.lux-job-role {
+  margin: .95rem 0 .9rem;
+  font-size: 1.06rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.lux-job p { margin: .55rem 0; }
+.lux-job ul { margin: .6rem 0 .2rem; }
+.lux-job li { line-height: 1.75; }
+
+/* 暗色主题：红色条改为亮红，背景降低不透明度 */
+:root[data-theme="dark"] .post-single .post-content > h2.lux-section-title {
+  background: linear-gradient(90deg, rgba(226, 134, 138, .15), transparent 78%);
+  color: #e2868a;
+}
+:root[data-theme="dark"] .post-single .post-content > h2.lux-section-title::before {
+  background: #e2868a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="auto"] .post-single .post-content > h2.lux-section-title {
+    background: linear-gradient(90deg, rgba(226, 134, 138, .15), transparent 78%);
+    color: #e2868a;
+  }
+  :root[data-theme="auto"] .post-single .post-content > h2.lux-section-title::before {
+    background: #e2868a;
+  }
+}
+
 @media (max-width: 480px) {
   .home-info .md-content > ul {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .lux-404-code {
+    font-size: 4rem;
+  }
+
+  .lux-job-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .1rem;
+  }
+
+  .lux-job-meta { white-space: normal; }
 }

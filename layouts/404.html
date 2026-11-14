@@ -1,0 +1,11 @@
+{{- define "main" }}
+<div class="not-found lux-not-found">
+  <span class="lux-404-code">404</span>
+  <p class="lux-404-text">这个页面走丢了。</p>
+  <p class="lux-404-links">
+    <a href="{{ "/" | relURL }}">回首页</a>
+    <span aria-hidden="true">·</span>
+    <a href="{{ "/search/" | relURL }}">去搜索</a>
+  </p>
+</div>
+{{- end }}
