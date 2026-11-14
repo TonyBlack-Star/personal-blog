@@ -69,13 +69,3 @@ draft: false
     </ul>
   </div>
 </details>
-
-## 教育
-
-`2012.09 – 2016.06` 桂林电子科技大学 · 测控技术与仪器
-
-在校：班级团支书（2012–2013）；校读者协会创始人之一（2013–2014）
-
-## 联系
-
-邮箱：[0tonyblack0@gmail.com](mailto:0tonyblack0@gmail.com)
