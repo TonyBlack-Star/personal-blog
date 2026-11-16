@@ -14,11 +14,11 @@ draft: false
 
 ## 核心能力
 
-- **建站与转化**：Shopify 从 0-1 搭建、多站点（UK / CA）落地、产品页与插件配置；基于 Crazy Egg、Google Analytics 做行为分析与页面迭代
-- **付费与自然流量**：Google Ads（搜索 / 展示 / 再营销，整体 ROAS 15）、Facebook 广告；SEO 以 Semrush 选题 + 内容体系驱动，站点月访问量达 2.3 万、5 个产品长尾词进入首页；EDM 定期营销
-- **红人与社媒**：TikTok / TikTok Shop 英国区红人分销、Shopify Affiliate、Facebook / Instagram / YouTube 内容运营；组建 4 人社媒团队
-- **平台渠道**：Amazon、eBay、Shein 与 Temu 全托管 / 半托管
-- **组织与流程**：BP/SP 战略解码至团队 OKR、跨 BU 大促协同、北美时段客服 SOP 与培训
+- **站点架构与转化优化**：Shopify 0-1 搭建、店匠 → Shopify 迁移、UK / CA 多站点落地；基于 Crazy Egg 与 Google Analytics 行为数据定位页面问题，迭代产品页与插件配置
+- **付费投放与自然流量**：Google Ads 搜索 / 展示 / 再营销（整体 ROAS 15，早期 SEM 阶段）、Facebook Ads 投放；以 Semrush 选题 + 内容体系驱动 SEO，站点月访问量 2.3 万、5 个产品长尾词进入首页；EDM 常态化触达
+- **红人分销与社媒矩阵**：TikTok Shop 英国区以佣金机制驱动红人带货，打造 2 款爆品；Shopify Affiliate 分销；Facebook / Instagram / YouTube 内容矩阵运营
+- **平台运营与托管渠道**：Amazon / eBay 平台运营起步；拓展 Shein / Temu 全托管与半托管，以 1688 选品为主，做到日均约 2,000 单、月销售额约 50 万元人民币
+- **经营机制与组织协同**：将 BP / SP 战略解码为团队 OKR 并滚动复盘；牵头跨 BU 大促资源协同；建立北美时段客服 SOP 并完成培训；从 0 组建覆盖设计、投放、运营、社媒与客服的职能团队（单阶段管理幅度约 10 人）
 
 <h2 class="lux-section-title">工作经历</h2>
 
