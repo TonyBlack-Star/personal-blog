@@ -61,7 +61,14 @@ draft: false
   </summary>
   <div class="lux-job-body">
     <p>传统外贸工厂转型 2C 的初创成员，从亚马逊运营起步，经 eBay 运营转入独立站并深耕 4 年。</p>
-    <p><strong>专员阶段（入职 – 2020 年中）</strong>：独立完成 Shopify 建站、上架、页面优化、插件配置与数据分析；自主启动 SEM，Google Ads 整体 ROAS 15；搭建 Semrush 选题 + 外包撰稿的 SEO 内容体系。阶段年销售额 150 万美元。</p>
+    <p><strong>专员阶段（2018.03 – 2020.06）｜单点实操，跑通冷启动</strong></p>
+    <ul>
+      <li><strong>站点 0-1 与转化迭代</strong>：独立完成 Shopify 建站，覆盖商品上架、产品页与排版优化、插件配置全链路；以 Crazy Egg、Microsoft Clarity、GA4 观测行为与流量数据，定位转化断点并持续迭代页面，而非一次性交付上线。</li>
+      <li><strong>站外信任资产</strong>：同步搭建 Trustpilot 评价、Facebook Page、YouTube 主页与社媒红人内容，为投放落地页提供第三方背书——冷启动期先解决新站可信度，再谈转化效率。</li>
+      <li><strong>Facebook 广告冷启动</strong>：业务引入 FB 渠道后，先以一年代理合作完成渠道认知与效果对接，代理期结束转自主投放，独立承接账户优化与效果复盘。</li>
+      <li><strong>Google Ads 与 SEO 冷启动</strong>：Google Ads 全程自主操盘，以亚马逊已跑出销量的品牌词切入，跑通基础投放结构；熟悉平台规则后逐步扩至产品词与类目词，由承接品牌搜索转向承接品类泛流量。SEO 侧以 Semrush、Keywords Everywhere、Google Trends 与亚马逊搜索词交叉选词，再用 Google 首页结果反查站点权重，筛出低竞争机会词，以关键词为核心规划博客主题，把内容生产固化为可复用的选题机制。</li>
+      <li><strong>阶段结果</strong>：站点年销售额 150 万美元。至此建站、投放、内容与站外背书由单人闭环，主管阶段再按职能拆分为社媒与投放团队。</li>
+    </ul>
     <p><strong>主管阶段（2020 年中 – 2022.06）</strong>：从实操转向统筹。</p>
     <ul>
       <li>组建 4 人社媒团队与 2 人投放团队；Facebook 月预算 2 万美元 / ROAS 约 6，Google 月预算约 1 万美元 / ROI 约 8。</li>
