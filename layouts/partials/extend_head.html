@@ -188,5 +188,85 @@
   @media (prefers-color-scheme: dark) {
     :root[data-theme="auto"] .post-single .post-content .lux-read-sub { border-left-color: rgba(226, 134, 138, .5); }
   }
+
+  /* ===== 「建议读」内层折叠：每个小标题独立收起，样式与 .lux-read-h 一致 ===== */
+  .post-single .post-content details.lux-read {
+    margin: 1.6rem 0 .2rem;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    transition: none;
+  }
+  .post-single .post-content details.lux-read:first-of-type { margin-top: .1rem; }
+  .post-single .post-content details.lux-read[open] {
+    border-color: transparent;
+    box-shadow: none;
+    padding-bottom: 0;
+  }
+
+  .post-single .post-content details.lux-read > summary.lux-read-h {
+    display: flex;
+    align-items: center;
+    gap: .55rem;
+    margin: 0;
+    padding: .3rem .1rem .3rem 0;
+    border-radius: 3px;
+    font-size: 1.12rem;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: .01em;
+    color: var(--primary);
+    list-style: none;
+    cursor: pointer;
+    user-select: none;
+  }
+  .post-single .post-content details.lux-read > summary.lux-read-h::-webkit-details-marker { display: none; }
+
+  /* 左侧细红竖条（覆盖通用 summary 的箭头样式） */
+  .post-single .post-content details.lux-read > summary.lux-read-h::before {
+    content: "";
+    flex: 0 0 auto;
+    width: 3px;
+    height: .92rem;
+    border: 0;
+    border-radius: 2px;
+    background: rgba(193, 70, 75, .55);
+    transform: none;
+    transition: background .2s ease;
+  }
+  .post-single .post-content details.lux-read:hover > summary.lux-read-h::before { background: #c1464b; }
+
+  /* 右侧折叠指示箭头 */
+  .post-single .post-content details.lux-read > summary.lux-read-h::after {
+    content: "";
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: .32rem;
+    height: .32rem;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(-45deg) translateY(-1px);
+    opacity: .38;
+    transition: transform .2s ease;
+  }
+  .post-single .post-content details.lux-read[open] > summary.lux-read-h::after {
+    transform: rotate(45deg) translateY(-1px);
+  }
+
+  .post-single .post-content details.lux-read > .lux-read-body { padding: .15rem 0 0 .1rem; }
+  .post-single .post-content details.lux-read > .lux-read-body > .lux-read-sub:first-child { margin-top: .5rem; }
+
+  :root[data-theme="dark"] .post-single .post-content details.lux-read > summary.lux-read-h::before {
+    background: rgba(226, 134, 138, .55);
+  }
+  :root[data-theme="dark"] .post-single .post-content details.lux-read:hover > summary.lux-read-h::before { background: #e2868a; }
+  @media (prefers-color-scheme: dark) {
+    :root[data-theme="auto"] .post-single .post-content details.lux-read > summary.lux-read-h::before {
+      background: rgba(226, 134, 138, .55);
+    }
+    :root[data-theme="auto"] .post-single .post-content details.lux-read:hover > summary.lux-read-h::before { background: #e2868a; }
+  }
 </style>
 {{ end }}
