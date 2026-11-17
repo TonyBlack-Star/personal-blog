@@ -29,8 +29,9 @@ draft: false
   </div>
 </details>
 
-<h2 class="lux-section-title">工作经历</h2>
-
+<details class="lux-section">
+  <summary class="lux-section-title">工作经历</summary>
+  <div class="lux-section-body">
 <details class="lux-job">
   <summary class="lux-job-head">
     <span class="lux-job-label"><span class="lux-job-company">广州速胜科技有限公司</span><span class="lux-job-sep">·</span><span class="lux-job-role">独立站负责人</span></span>
@@ -54,7 +55,6 @@ draft: false
     </ul>
   </div>
 </details>
-
 <details class="lux-job">
   <summary class="lux-job-head">
     <span class="lux-job-label"><span class="lux-job-company">深圳市煜伦电子商务有限公司</span><span class="lux-job-sep">·</span><span class="lux-job-role">独立站经理</span></span>
@@ -76,7 +76,6 @@ draft: false
     <p><strong>阶段跃迁</strong>：两年内从「管理一个成熟站点的预算与团队」，走到「以 2 人配置并行承担两条职责」——独立站线把朗胜的单站点能力升级为多区域准入（VAT / 清关 / 尾程仓）与本地化支付的完整经营闭环；平台线从 0 跑通全托管 / 半托管的选品、供货、欧盟广告合规与红人分销机制。能力重心由组织管理转向跨模式编排、区域合规与机制设计，也为速胜阶段承接整体经营目标、解码 OKR、统筹跨 BU 资源，以及优化跨境结算路径提供了直接实操基础。</p>
   </div>
 </details>
-
 <details class="lux-job">
   <summary class="lux-job-head">
     <span class="lux-job-label"><span class="lux-job-company">深圳市朗胜光科技有限公司</span><span class="lux-job-sep">·</span><span class="lux-job-role">独立站主管</span></span>
@@ -101,5 +100,7 @@ draft: false
       <li><strong>服务与履约机制</strong>：合作 Callnovo 建立北美时段客服 SOP 并完成团队培训，同步开通在线电话咨询服务；以人工售前承接高客单、高决策成本的咨询，转化率提升的同时降低售后退款率。</li>
       <li><strong>数据结果呈现</strong>：Facebook 月预算 2 万美元 / ROAS 约 6，Google 月预算约 1 万美元 / ROI 约 8，红人渠道 ROAS 4，EDM 占营收 10%、月均 5 万美元，Google Search Console（GSC）品牌词搜索量稳定上升；月度广告投入约 3 万美元、社媒约 5 千美元，离职时年销售额 600 万美元以上。</li>
     </ul>
+  </div>
+</details>
   </div>
 </details>
