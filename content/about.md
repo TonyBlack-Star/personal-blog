@@ -113,3 +113,10 @@ draft: false
 </details>
   </div>
 </details>
+
+<details class="lux-section">
+  <summary class="lux-section-title">其他补充 · 建议读</summary>
+  <div class="lux-section-body">
+    <p>内容整理中，稍后补充；如需提前了解，可直接沟通。</p>
+  </div>
+</details>
