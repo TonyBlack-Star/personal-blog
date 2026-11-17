@@ -8,7 +8,6 @@ draft: false
   <summary class="lux-section-title">核心成果</summary>
   <div class="lux-section-body">
     <p>8 年 DTC 品牌独立站，从 0-1 建站到 1-10 规模化经营，面向北美 / 欧洲市场主导 Shopify 站点增长。</p>
-
     <ul>
       <li><strong>站点刻度</strong>：参与 4 个品牌独立站，2 个从 0 到 1 做成年营收 6,000 万级，1 个参与规模化共创至年营收过亿。</li>
       <li><strong>增长闭环</strong>：付费投放 + SEO 内容体系 + 红人分销 + 平台托管，多引擎组合而非单点依赖。</li>
