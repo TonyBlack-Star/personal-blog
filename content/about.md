@@ -4,21 +4,31 @@ description: "独立站负责人（全球站点）。8 年 DTC 品牌独立站�
 draft: false
 ---
 
-<h2 class="lux-section-title">核心成果</h2>
+<details class="lux-section">
+  <summary class="lux-section-title">核心成果</summary>
+  <div class="lux-section-body">
+    <p>8 年 DTC 品牌独立站，从 0-1 建站到 1-10 规模化经营，面向北美 / 欧洲市场主导 Shopify 站点增长。</p>
 
-8 年 DTC 品牌独立站，从 0-1 建站到 1-10 规模化经营，面向北美 / 欧洲市场主导 Shopify 站点增长。
+    <ul>
+      <li><strong>站点刻度</strong>：参与 4 个品牌独立站，2 个从 0 到 1 做成年营收 6,000 万级，1 个参与规模化共创至年营收过亿。</li>
+      <li><strong>增长闭环</strong>：付费投放 + SEO 内容体系 + 红人分销 + 平台托管，多引擎组合而非单点依赖。</li>
+      <li><strong>组织闭环</strong>：从 0 组建覆盖设计 / 投放 / 运营 / 社媒 / 客服的团队，可独立承接经营目标。</li>
+    </ul>
+  </div>
+</details>
 
-- **站点刻度**：参与 4 个品牌独立站，2 个从 0 到 1 做成年营收 6,000 万级，1 个参与规模化共创至年营收过亿。
-- **增长闭环**：付费投放 + SEO 内容体系 + 红人分销 + 平台托管，多引擎组合而非单点依赖。
-- **组织闭环**：从 0 组建覆盖设计 / 投放 / 运营 / 社媒 / 客服的团队，可独立承接经营目标。
-
-<h2 class="lux-section-title">核心能力</h2>
-
-- **站点架构与转化优化**：Shopify 0-1 搭建、店匠 → Shopify 迁移、UK / CA 多站点落地；基于 Crazy Egg 与 Google Analytics 行为数据定位页面问题，迭代产品页与插件配置。
-- **付费投放与自然流量**：Google Ads 搜索 / 展示 / 再营销（整体 ROAS 15，早期 SEM 阶段）、Facebook Ads 投放；以 Semrush 选题 + 内容体系驱动 SEO，站点月访问量 2.3 万、5 个产品长尾词进入首页；EDM 常态化触达。
-- **红人分销与社媒矩阵**：TikTok Shop 英国区以佣金机制驱动红人带货，打造 2 款爆品；Shopify Affiliate 分销；Facebook / Instagram / YouTube 内容矩阵运营。
-- **平台运营与托管渠道**：Amazon / eBay 平台运营起步；拓展 Shein / Temu 全托管与半托管，以 1688 选品为主，做到日均约 2,000 单、月销售额约 50 万元人民币。
-- **经营机制与组织协同**：将 BP / SP 战略解码为团队 OKR 并滚动复盘；牵头跨 BU 大促资源协同；建立北美时段客服 SOP 并完成培训；从 0 组建覆盖设计、投放、运营、社媒与客服的职能团队（单阶段管理幅度约 10 人）。
+<details class="lux-section">
+  <summary class="lux-section-title">核心能力</summary>
+  <div class="lux-section-body">
+    <ul>
+      <li><strong>站点架构与转化优化</strong>：Shopify 0-1 搭建、店匠 → Shopify 迁移、UK / CA 多站点落地；基于 Crazy Egg 与 Google Analytics 行为数据定位页面问题，迭代产品页与插件配置。</li>
+      <li><strong>付费投放与自然流量</strong>：Google Ads 搜索 / 展示 / 再营销（整体 ROAS 15，早期 SEM 阶段）、Facebook Ads 投放；以 Semrush 选题 + 内容体系驱动 SEO，站点月访问量 2.3 万、5 个产品长尾词进入首页；EDM 常态化触达。</li>
+      <li><strong>红人分销与社媒矩阵</strong>：TikTok Shop 英国区以佣金机制驱动红人带货，打造 2 款爆品；Shopify Affiliate 分销；Facebook / Instagram / YouTube 内容矩阵运营。</li>
+      <li><strong>平台运营与托管渠道</strong>：Amazon / eBay 平台运营起步；拓展 Shein / Temu 全托管与半托管，以 1688 选品为主，做到日均约 2,000 单、月销售额约 50 万元人民币。</li>
+      <li><strong>经营机制与组织协同</strong>：将 BP / SP 战略解码为团队 OKR 并滚动复盘；牵头跨 BU 大促资源协同；建立北美时段客服 SOP 并完成培训；从 0 组建覆盖设计、投放、运营、社媒与客服的职能团队（单阶段管理幅度约 10 人）。</li>
+    </ul>
+  </div>
+</details>
 
 <h2 class="lux-section-title">工作经历</h2>
 
