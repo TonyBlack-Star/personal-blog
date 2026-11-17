@@ -34,6 +34,15 @@ draft: false
   <div class="lux-section-body">
 <details class="lux-job">
   <summary class="lux-job-head">
+    <span class="lux-job-label"><span class="lux-job-company">深圳某公司（在职中，暂不具名）</span><span class="lux-job-sep">·</span><span class="lux-job-role">独立站负责人</span></span>
+    <span class="lux-job-meta">2026.05 – 至今</span>
+  </summary>
+  <div class="lux-job-body">
+    <p>DTC 品牌独立站业务，站点体量过亿，本人以异地办公方式承担站点经营工作。因仍在职，此处不做详细呈现，具体职责、团队与经营数据可私下沟通。</p>
+  </div>
+</details>
+<details class="lux-job">
+  <summary class="lux-job-head">
     <span class="lux-job-label"><span class="lux-job-company">广州速胜科技有限公司</span><span class="lux-job-sep">·</span><span class="lux-job-role">独立站负责人</span></span>
     <span class="lux-job-meta">2025.03 – 2026.04</span>
   </summary>
