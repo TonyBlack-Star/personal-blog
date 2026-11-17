@@ -29,7 +29,9 @@
   .post-single > details.toc,
   .post-single .share-buttons { display: none; }
 
-  .post-single .post-header { margin-bottom: 1.1rem; }
+  /* 履历页不显示页头（大标题「履历」+ 简介段落），正文直接从板块内容开始；
+     <title> 与 meta description 仍保留在 head 中，供搜索引擎与分享卡片使用 */
+  .post-single .post-header { display: none; }
   .post-single .post-title { margin-bottom: .4rem; }
   .post-single .post-description {
     font-size: .95rem;
