@@ -29,9 +29,7 @@
   .post-single > details.toc,
   .post-single .share-buttons { display: none; }
 
-  /* 履历页不显示页头（大标题 + 简介），正文直接从内容开始；
-     <title> 与 meta description 仍在 head 中保留给搜索引擎 */
-  .post-single .post-header { display: none; }
+  .post-single .post-header { margin-bottom: 1.1rem; }
   .post-single .post-title { margin-bottom: .4rem; }
   .post-single .post-description {
     font-size: .95rem;
@@ -40,13 +38,11 @@
     max-width: 46rem;
   }
 
-  .post-single .post-content h2 {
-    margin-top: 2rem;
-    margin-bottom: .9rem;
-    padding-bottom: .45rem;
-    border-bottom: 1px solid var(--border);
-    font-size: 1.3rem;
-  }
+  /* 正文整体收小 2px：18px → 16px（标题字号另由 .lux-section-title 定义，不受影响） */
+  .post-single .post-content { font-size: 16px; }
+
+  /* 板块标题（核心成果 / 核心能力 / 工作经历）统一样式定义在
+     assets/css/extended/luxseen.css 的 .lux-section-title，此处仅修正首块上间距 */
   .post-single .post-content > h2:first-child { margin-top: .6rem; }
   .post-single .post-content ul { padding-left: 1.35rem; }
   .post-single .post-content li { margin: .35rem 0; line-height: 1.75; }
