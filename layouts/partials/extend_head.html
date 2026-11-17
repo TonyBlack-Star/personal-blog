@@ -165,5 +165,28 @@
     }
     :root[data-theme="auto"] .post-single .post-content details.lux-section > summary.lux-section-title::before { background: #e2868a; }
   }
+  /* ===== 「其他补充 · 建议读」正文分级：主标题 / 小标题 ===== */
+  .post-single .post-content .lux-read-h {
+    margin: 1.9rem 0 .5rem;
+    font-size: 1.12rem;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: .01em;
+    color: var(--primary);
+  }
+  .post-single .post-content .lux-read-h:first-child { margin-top: .1rem; }
+  .post-single .post-content .lux-read-sub {
+    margin: 1.35rem 0 .45rem;
+    padding-left: .55rem;
+    border-left: 2px solid rgba(193, 70, 75, .45);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.6;
+    color: var(--primary);
+  }
+  :root[data-theme="dark"] .post-single .post-content .lux-read-sub { border-left-color: rgba(226, 134, 138, .5); }
+  @media (prefers-color-scheme: dark) {
+    :root[data-theme="auto"] .post-single .post-content .lux-read-sub { border-left-color: rgba(226, 134, 138, .5); }
+  }
 </style>
 {{ end }}
