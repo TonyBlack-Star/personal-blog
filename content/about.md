@@ -4,7 +4,7 @@ description: "独立站负责人（全球站点）。8 年 DTC 品牌独立站�
 draft: false
 ---
 
-## 核心成果
+<h2 class="lux-section-title">核心成果</h2>
 
 8 年 DTC 品牌独立站，从 0-1 建站到 1-10 规模化经营，面向北美 / 欧洲市场主导 Shopify 站点增长。
 
@@ -12,7 +12,7 @@ draft: false
 - **增长闭环**：付费投放 + SEO 内容体系 + 红人分销 + 平台托管，多引擎组合而非单点依赖。
 - **组织闭环**：从 0 组建覆盖设计 / 投放 / 运营 / 社媒 / 客服的团队，可独立承接经营目标。
 
-## 核心能力
+<h2 class="lux-section-title">核心能力</h2>
 
 - **站点架构与转化优化**：Shopify 0-1 搭建、店匠 → Shopify 迁移、UK / CA 多站点落地；基于 Crazy Egg 与 Google Analytics 行为数据定位页面问题，迭代产品页与插件配置。
 - **付费投放与自然流量**：Google Ads 搜索 / 展示 / 再营销（整体 ROAS 15，早期 SEM 阶段）、Facebook Ads 投放；以 Semrush 选题 + 内容体系驱动 SEO，站点月访问量 2.3 万、5 个产品长尾词进入首页；EDM 常态化触达。
