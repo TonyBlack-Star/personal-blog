@@ -162,5 +162,14 @@ draft: false
         </ul>
       </div>
     </details>
+    <details class="lux-read">
+      <summary class="lux-read-h">联系方式</summary>
+      <div class="lux-read-body">
+        <ul>
+          <li><strong>邮箱</strong>：0tonyblack0@gmail.com</li>
+          <li><strong>Wechat</strong>：Tonyblack-dou</li>
+        </ul>
+      </div>
+    </details>
   </div>
 </details>
