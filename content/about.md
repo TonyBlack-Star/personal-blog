@@ -20,11 +20,11 @@ draft: false
   <summary class="lux-section-title">核心能力</summary>
   <div class="lux-section-body">
     <ul>
-      <li><strong>站点架构与转化优化</strong>：Shopify 0-1 搭建、店匠 → Shopify 迁移、UK / CA 多站点落地；基于 Crazy Egg 与 Google Analytics 行为数据定位页面问题，迭代产品页与插件配置。</li>
-      <li><strong>付费投放与自然流量</strong>：Google Ads 搜索 / 展示 / 再营销（整体 ROAS 15，早期 SEM 阶段）、Facebook Ads 投放；以 Semrush 选题 + 内容体系驱动 SEO，站点月访问量 2.3 万、5 个产品长尾词进入首页；EDM 常态化触达。</li>
-      <li><strong>红人分销与社媒矩阵</strong>：TikTok Shop 英国区以佣金机制驱动红人带货，打造 2 款爆品；Shopify Affiliate 分销；Facebook / Instagram / YouTube 内容矩阵运营。</li>
-      <li><strong>平台运营与托管渠道</strong>：Amazon / eBay 平台运营起步；拓展 Shein / Temu 全托管与半托管，以 1688 选品为主，做到日均约 3,000 单、月销售额约 100 万元人民币。</li>
-      <li><strong>经营机制与组织协同</strong>：将 BP / SP 战略解码为团队 OKR 并滚动复盘；牵头跨 BU 大促资源协同；建立北美时段客服 SOP 并完成培训；从 0 组建覆盖设计、投放、运营、社媒与客服的职能团队（单阶段管理幅度约 10 人）。</li>
+      <li><strong>站点架构与转化优化</strong>：具备 Shopify 从 0 到 1 搭建能力，并完成收款渠道配置与 On-site SEO 基础搭建；以 Crazy Egg 与 Google Analytics 的行为数据为依据，持续迭代产品页与插件配置，支撑站点承接投放与本地化运营。</li>
+      <li><strong>付费投放与自然流量</strong>：专员阶段自主启动 SEM，Google Ads 投放整体 ROAS 15；主管阶段管理 Facebook 月预算 2 万美元（ROAS 约 6）与 Google 月预算约 1 万美元（ROAS 约 8），并引入再营销漏斗挽回转化。SEO 以 Semrush 选题配合外包撰稿的内容体系驱动，母婴品牌站点月访问量达 2.3 万、5 个产品长尾词进入首页；EDM 定期营销纳入常态化触达。</li>
+      <li><strong>红人分销与社媒矩阵</strong>：TikTok Shop 英国区以佣金机制驱动红人带货，打造 2 款爆品；搭建 Shopify Affiliate 分销链路；Facebook、Instagram、YouTube 内容矩阵运营，并组建 4 人社媒团队承接日常产出。</li>
+      <li><strong>渠道拓展与托管运营</strong>：由 Amazon、eBay 平台运营转入独立站后持续验证增量渠道；2023 年起拓展 Shein、Temu 全托管与半托管，以 1688 选品为主，达到日均约 3,000 单、月销售额约 100 万元人民币。</li>
+      <li><strong>经营机制与团队成长</strong>：将 BP / SP 战略解码为团队 OKR 并滚动复盘；牵头黑五网一、圣诞等跨 BU 大促的资源统筹与统一部署；合作 Callnovo 建立北美时段客服 SOP 并完成培训；分阶段组建覆盖设计、投放、运营、社媒与客服的职能团队，单阶段管理幅度约 10 人，8 年累计管理 30 余人，其中约 10 人取得良好业绩并获得晋升。</li>
     </ul>
   </div>
 </details>
