@@ -151,12 +151,9 @@ draft: false
       </div>
     </details>
     <details class="lux-read">
-      <summary class="lux-read-h">沟通与差旅</summary>
+      <summary class="lux-read-h">沟通方式</summary>
       <div class="lux-read-body">
-        <ul>
-          <li>现阶段先线上聊就好。也不限于谈岗位，单纯想聊聊独立站的问题也欢迎，不合作也没关系，就当互相交流、互相学习。</li>
-          <li>我常驻长沙，要约深圳线下只能周末；真需要面聊，需要要约方提供行程报销。</li>
-        </ul>
+        <p>虽然目前就职于深圳公司，但是全职base长沙，所以前期沟通只能通过线上，先线上了解合适后再进行下一步。如果需要邀约外地面聊的话暂时只能约在周六，还需要邀约方提供差旅行程报销。</p>
       </div>
     </details>
     <details class="lux-read">
